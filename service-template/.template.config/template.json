@@ -1,0 +1,42 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "some nerd",
+    "classifications": [
+      "Service"
+    ],
+    "name": "basic service template",
+    "description": "basic service template",
+    "groupIdentity": "Dotnet.Function.Timer",
+    "identity": "Dotnet.Function.Timer.CSharp",
+    "shortName": "bs",
+    "defaultName": "SomeService1",
+    "tags": {
+      "language": "C#",
+      "type": "solution"
+    },
+    "sourceName": "ServiceNamePlaceholder",
+    /*"symbols": {
+      "FunctionName": {
+          "type": "parameter",
+          "datatype": "string",
+          "defaultValue": "MyFunction",
+          "replaces": "FUNCTION-NAME",
+          "description": "The name of the Azure Function."
+      },
+      "CronExpression": {
+          "type": "parameter",
+          "datatype": "string",
+          "defaultValue": "0 * * * * *",
+          "replaces": "CRON-TIMER",
+          "description": "The timer expression in cron expression."
+      },
+      "LogLevel": {
+          "type": "parameter",
+          "datatype": "string",
+          "defaultValue": "Information",
+          "replaces": "LOG-LEVEL",
+          "description": "Default LogLevel for the Azure Function."
+      },
+    }*/
+  }
+  

@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ok.ServiceNamePlaceholder.Domain\Ok.ServiceNamePlaceholder.Domain.csproj" />
+    <ProjectReference Include="..\Ok.ServiceNamePlaceholder.Infrastructure\Ok.ServiceNamePlaceholder.Infrastructure.csproj" />
+    <ProjectReference Include="..\Ok.ServiceNamePlaceholder.Application\Ok.ServiceNamePlaceholder.Application.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" />
+    <PackageReference Include="FluentValidation" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" />
+    <PackageReference Include="MediatR" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Ok.ServiceNamePlaceholder.Api</RootNamespace>
+  </PropertyGroup>
+
+</Project>

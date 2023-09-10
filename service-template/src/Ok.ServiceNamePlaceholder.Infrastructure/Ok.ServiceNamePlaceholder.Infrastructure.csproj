@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ok.ServiceNamePlaceholder.Domain\Ok.ServiceNamePlaceholder.Domain.csproj" />
+    <ProjectReference Include="..\Ok.ServiceNamePlaceholder.Application\Ok.ServiceNamePlaceholder.Application.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Ok.ServiceNamePlaceholder.Infrastructure</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
